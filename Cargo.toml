@@ -12,7 +12,7 @@ keywords = ["serial", "hardware", "system", "RS232"]
 categories = ["hardware-support", "os", "os::unix-apis"]
 
 [dependencies]
-serial-core = { version = "0.4", path = "../serial-core" }
+serial-core = "0.4"
 libc = "0.2.1"
 termios = "0.2.2"
 ioctl-rs = "0.1.5"
